@@ -1,18 +1,18 @@
-## Getting Started
+# PROJECT-INVETARIO
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Modulo de manejo de personas
 
-## Folder Structure
+En este modulo hay varias versiones de algoritmo y en especial como se ubicaron los botones del menu vertical del lado derecho,
 
-The workspace contains two folders by default, where:
+- Version 1: En ContainerButtonV1.java: se puede observar que el codigo de las adiones de los botones tiene varias lineas y que se repiten con un pequeño cambio.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Version 2: En ContainerButtonV1.java: se ha generalizado el algoritmo, de tal manera que adiocnar botonos se converte en algo muy simple, y que yas no hay codigo repetido.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- version 3: En ContainerButtonV2, no se utiliza layout.
 
-## Dependency Management
+- version4:  Se puede implementar de muchas otras maneras
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Observacion: existen muchas maneras de implenetar lo mismo, la desicion esta en manos del programador o de las reglas que establezca la empresa.
+
+
