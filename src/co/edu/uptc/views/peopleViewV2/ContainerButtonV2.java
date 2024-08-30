@@ -3,11 +3,16 @@ package co.edu.uptc.views.peopleViewV2;
 import java.awt.Color;
 import java.awt.Cursor;
 import java.awt.Dimension;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 import javax.swing.Box;
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JPanel;
+
+import co.edu.uptc.views.personViewV1.PersonViewV1;
+import co.edu.uptc.views.personViewV2.PersonViewV2;
 
 public class ContainerButtonV2 extends JPanel{
     private int spaceVerticalBetweenComponents = 1;
@@ -31,6 +36,14 @@ public class ContainerButtonV2 extends JPanel{
 
         JButton jButton = new JButton("Adicionar");  
         addComponent(jButton);
+         jButton.addActionListener(new ActionListener() {
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                PersonViewV2 personView = new PersonViewV2();
+            }
+            
+        });
     }
 
     private void addButtonModifyPerson() {
