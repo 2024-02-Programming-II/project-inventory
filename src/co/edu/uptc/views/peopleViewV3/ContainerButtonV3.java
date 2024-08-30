@@ -5,8 +5,7 @@ import java.awt.Dimension;
 import javax.swing.JButton;
 import javax.swing.JPanel;
 
-public class ContainerButtonV3 extends JPanel{
-    private int posX = 10;
+public class ContainerButtonV3 extends JPanel{    
     private int posY = 10;
     private int widthPanel = 140;
     private int heightComponent = 30;
