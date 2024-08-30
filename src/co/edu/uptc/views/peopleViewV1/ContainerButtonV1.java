@@ -3,11 +3,15 @@ package co.edu.uptc.views.peopleViewV1;
 import java.awt.Color;
 import java.awt.Cursor;
 import java.awt.Dimension;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 import javax.swing.Box;
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JPanel;
+
+import co.edu.uptc.views.personViewV1.PersonViewV1;
 
 public class ContainerButtonV1 extends JPanel {
     private int spaceVerticalBetweenComponents = 1;
@@ -39,6 +43,17 @@ public class ContainerButtonV1 extends JPanel {
         jButton.setMaximumSize(new Dimension(Integer.MAX_VALUE, jButton.getPreferredSize().height)); 
         jButton.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR)); 
         panel.add(jButton);        
+     
+        jButton.addActionListener(new ActionListener() {
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                PersonViewV1 personView = new PersonViewV1();
+            }
+            
+        });
+
+
         panel.add(Box.createRigidArea(new Dimension(spaceHorizontalVertLeft, 0))); 
         this.add(panel);
         add(Box.createVerticalStrut(spaceVerticalBetweenComponents));
