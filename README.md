@@ -4,7 +4,7 @@
 
 ## MODULOS
 
-1. **Modulo de manejo de personas**
+### 1 Modulo de manejo de personas
 
 En este modulo hay varias versiones de algoritmo y en especial como se ubicaron los botones del menú vertical del lado derecho,
 
@@ -17,7 +17,7 @@ En este modulo hay varias versiones de algoritmo y en especial como se ubicaron 
 - version4: Se puede implementar de muchas otras maneras
 
 
-1. **Modulo de manejo de una persona**
+###  1.1 Modulo de manejo de una persona
 En este modulo hat dos versiones con SpringLayout  y sin layout
 - Versión 1:  En PanelWorkPersonV1.java esta implenetado con SpringLayout
 - Versión 2:  En PanelWorkPersonV2.java esta implenetado sin layout
